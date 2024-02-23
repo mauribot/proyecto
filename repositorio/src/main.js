@@ -1,5 +1,5 @@
 import Vue from 'vue'; // Importamos Vue
-import './style.scss'; // Importamos Sass
+import './style.scss'; 
 import genres from './util/genres';
 
 // Importamos la librería 'MomentJS'components
