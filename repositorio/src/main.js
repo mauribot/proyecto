@@ -47,7 +47,7 @@ new Vue({ // Instanciamos la app
                   .then( response => {
                       this.movies = response.data;
                   });
-        // Nos suscribimos a los evento del bus
+
 		this.$bus.$on('check-filter', checkFilter.bind(this))
 		this.$bus.$on('set-day', setDay.bind(this))
     }
