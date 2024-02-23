@@ -39,7 +39,7 @@ new Vue({ // Instanciamos la app
         // Compartimos la instancia de 'MomentJS'
         moment,
         day: moment(),
-        // Compartimos el bus
+
         bus
     },
     created() {
