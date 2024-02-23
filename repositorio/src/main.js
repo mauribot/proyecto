@@ -1,6 +1,6 @@
 import Vue from 'vue'; // Importamos Vue
 import './style.scss'; // Importamos Sass
-import genres from './util/genres'; // Importamos el mock de generos
+import genres from './util/genres';
 
 // Importamos la librería 'MomentJS'components
 import moment from 'moment-timezone';
