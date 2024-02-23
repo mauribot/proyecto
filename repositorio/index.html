@@ -20,7 +20,7 @@
             <h1>Vue.js Cinema</h1>
         </div>
 	</router-link>
-	<keep-alive> <!-- Este componente mantiene en cache los filtros... No elimina todos los datos al cambiar las vistas-->
+	<keep-alive> 
 		<router-view v-bind:genre="genre" v-bind:time="time" v-bind:movies="movies"
 		v-bind:day="day"></router-view>
 	</keep-alive>
